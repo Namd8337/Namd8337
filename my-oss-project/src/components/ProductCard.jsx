@@ -17,7 +17,7 @@ const ProductCard = ({ product, onAddToCart, onViewDetail }) => {
             onClick={() => onAddToCart(product)}
             className="rounded-full bg-sky-600 px-3 py-2 text-xs font-semibold text-white transition hover:bg-sky-700"
           >
-            Thêm giỏ
+            Thêm vào giỏ hàng
           </button>
         </div>
       </div>

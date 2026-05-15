@@ -2,7 +2,7 @@ const ProductDetail = ({ product, onClose, onAddToCart }) => {
   return (
     <section className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-semibold text-slate-900">Chi tiết sản phẩm</h2>
+        <h2 className="text-2xl font-semibold text-slate-900">Chi tiết Gói</h2>
         <button
           onClick={onClose}
           className="rounded-full bg-slate-200 p-2 text-slate-600 hover:bg-slate-300"
@@ -25,7 +25,7 @@ const ProductDetail = ({ product, onClose, onAddToCart }) => {
               Thêm vào giỏ hàng
             </button>
             <button className="rounded-full bg-slate-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-700">
-              Mua ngay
+              Đặt Gói
             </button>
           </div>
         </div>
